@@ -287,7 +287,7 @@ footer{
 }
 
 
-@media only screen and (min-width:300px) and (max-width:500px){
+@media only screen and (min-width:300px) and (max-width:400px){
 
     *{
         margin: 0;
@@ -303,11 +303,13 @@ footer{
     }
     
     header{
+        position: relative;
         text-align: center;
         background-image: url("./images/3337.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        width: 300px;    
+        width: 300px;
+        left: 50px;    
     }
     .logo{
         margin-top: 0px;
@@ -343,7 +345,7 @@ footer{
     
     #about p{
         margin-top: -50px;
-        width: 300px;
+        width: 250px;
         height: 100%;
         
     
@@ -422,20 +424,20 @@ footer{
     
     #about .container{
         position: relative;
-        height: 500px;
+        height: 800px;
     }
 
     #about img{
         position: relative;
         left: -200px;
         height: 80px;
-        top: -240px;
+        top: -380px;
     }
 
     #about{
         position: relative;
         top: -5px;
-        left: -38px;
+        left: 5px;
 
     }
 
