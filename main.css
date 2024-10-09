@@ -295,6 +295,15 @@ footer{
         font-weight: normal;
     }
     
+    #bt{
+        position: relative;
+        left: 0px;
+        margin: 55px;
+
+
+        
+    }
+
     body{
         background-image: url("./images/689.jpg");
         background-repeat: repeat-y;
@@ -383,12 +392,15 @@ footer{
         border-width:5px;
         height: 80px;
         border-end-end-radius: 2px;
-        border-end-start-radius: 2px;
+        border-end-start-radius: 2px;       
         border-color: blue;
         background-color: blue;
+        
     }
     
     nav a{
+        margin: 50px;
+        justify-content: space-between;
         background-image: url("https://img.freepik.com/vetores-gratis/fundo-rosa-choque-gradiente_23-2150837376.jpg");
         background-size: cover;
         background-repeat: no-repeat;
@@ -401,7 +413,9 @@ footer{
         border: outset;
         border-color: rgb(192, 0, 195);
         font-weight: 900;
-        margin: 54px;
+        
+        
+        justify-content: space-between;
     }
     
     nav a:hover{
