@@ -308,8 +308,8 @@ footer{
         background-image: url("./images/3337.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        width: 300px;
-        left: 50px;    
+        width: 100%;
+        left: 0px;    
     }
     .logo{
         margin-top: 0px;
@@ -394,13 +394,14 @@ footer{
         background-repeat: no-repeat;
         padding: 5px;
         position: relative;
-        top: 29px; 
+        top: 9px; 
         border-radius: 100px;
         text-decoration: none;
         color: rgba(255, 215, 215, 0.785);
         border: outset;
         border-color: rgb(192, 0, 195);
         font-weight: 900;
+        margin: 54px;
     }
     
     nav a:hover{
@@ -413,7 +414,7 @@ footer{
         border: outset;
         width: 300px; 
         border-radius: 40px;
-        left: -30px;
+        left: 8px;
         height: max-content;
         margin: 40px;
         display: flex;
@@ -431,7 +432,7 @@ footer{
         position: relative;
         left: -200px;
         height: 80px;
-        top: -380px;
+        top: -280px;
     }
 
     #about{
@@ -461,7 +462,7 @@ footer{
     
     #songs{
         position: relative;
-        left: -38px;
+        left: 8px;
         top: 20px;
         
     
@@ -531,7 +532,7 @@ footer{
         position: relative;
         height: 200px;
         left: 10px;
-        top: -100px;
+        top: -170px;
         margin-bottom: -80px;
         
     
@@ -539,22 +540,26 @@ footer{
     
     #characters p{
         position: relative;
-        top: -70px;
+        top: -100px;
         left: -50px;
         font-size: 15px;
+    }
+    #characters h2{
+        top: -40px;
     }
 
     #characters{
         position: relative;
         width: 300px;
-        left: -38px;
+        left: 8px;
+        height: 850px;
     }
 
     #videos{
         position: relative;
         width: 300px;
         height: 1300px;
-        left: -38px;
+        left: 8px;
         padding-bottom: -200px;
     }
 
@@ -598,6 +603,7 @@ footer{
     #credits p{
         width: 200px;
         top: 0px;
+    
     }
 
     #credits h2{
@@ -630,6 +636,10 @@ footer{
     .clips{
         position: relative;
         left: 40px;
+    }
+
+    footer{
+        width: 100%;
     }
     
         
