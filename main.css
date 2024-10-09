@@ -297,11 +297,17 @@ footer{
     
     #bt{
         position: relative;
-        left: 0px;
+        left: -120px;
         margin: 565px;
 
 
         
+    }
+
+    #bu{
+        position: relative;
+        left: -140px;
+        top: -20px;
     }
 
     body{
