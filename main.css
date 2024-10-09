@@ -305,6 +305,10 @@ footer{
         
     }
 
+    #ct{
+        top: 22px;
+    }
+
     #bu{
         position: relative;
         left: -140px;
