@@ -8,6 +8,9 @@ body{
     background-image: url("./images/689.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 header{
@@ -180,6 +183,18 @@ section h3{
 }
 
 
+#vd{
+    top: 0;
+    left: 30;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    border: 0;
+}
+
+
+
+
 p{
 
     font-size: 20px;
@@ -193,12 +208,18 @@ p{
 
 .imgchar{
     display: flex;
+    
+}
+
+#characters p{
+    text-align: center;
+    width: 1200px;
 }
 
 .imgchar img{
     position: relative;
     height: 500px;
-    left: 100px;
+    left: 350px;
     top: -100px;
     margin-bottom: -80px;
     
@@ -209,21 +230,32 @@ p{
 
 ul li{
     position: relative;
-    top: -140px;
+    top: -40px;
     left: 80px;
     font-size: 20px;
 
 }
 
 
+#credits h2{
+    position: relative;
+    top: 140px;
+}
+
 #credits{
     display: flex;
+    height: 500px;
+}
+
+#credits p{
+    position: relative;
+    top: 140px;
 }
 
 #credits img{
     position: relative;
     left: 1000px;
-    top: -390px;
+    top: -290px;
 }
 
 #pvid{
@@ -241,4 +273,1767 @@ ul li{
 .clips{
     position: relative;
     left: 40px;
+}
+
+footer{
+    padding-top: 50px;
+    color: white;
+    border: inset;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(255, 0, 144, 0.295);
+    border-color: rgba(0, 0, 255, 0.249);
+    height: 100px;
+}
+
+
+@media only screen and (min-width:300px) and (max-width:500px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-weight: normal;
+    }
+    
+    body{
+        background-image: url("./images/689.jpg");
+        background-repeat: repeat-y;
+        background-size: 3800px;
+    
+    }
+    
+    header{
+        text-align: center;
+        background-image: url("./images/3337.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 300px;    
+    }
+    .logo{
+        margin-top: 0px;
+        margin-bottom: 00px;
+    }
+    
+
+    #characters p {
+        width: 250px;
+    }
+    
+    .logo img{
+        height: 100px;
+    }
+    
+    .characters{
+        position: relative;
+        top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        top: 20px;
+        padding-bottom: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .characters img{
+        margin: -20px;
+        height: 70px;
+    
+    }
+    
+    #about p{
+        margin-top: -50px;
+        width: 300px;
+        
+    
+    }
+
+    
+    #len:hover{
+        content: url("https://media.tenor.com/5zHZUERctVIAAAAi/kagamine-len.gif");
+        cursor: pointer;
+        
+    }
+    
+    #kaito:hover{
+        content: url("https://static.myfigurecollection.net/upload/pictures/2023/06/05/3615317.gif");
+        cursor: pointer;
+    }
+    
+    #miku:hover{
+        content: url("https://static.wikia.nocookie.net/ecf5b0a0-1baf-4289-af94-e246770f2abf");
+    }
+    
+    #rin:hover{
+        content: url("https://cdn.pixilart.com/photos/orginal/1524e3ba6a460ae.gif");
+        cursor: pointer;
+    }
+    
+    #meiko:hover{
+        content: url("https://64.media.tumblr.com/811ec2d6206ece16c82bfc026248eb97/0c03b4b88a77a9da-ce/s250x400/c4ae215cd162ca249f1c7ee4334fe80f9b9fd552.gifv");
+        cursor: pointer;
+    }
+    
+    nav{
+        font-size: 20px;
+        border: inset;
+        border-width:5px;
+        height: 80px;
+        border-end-end-radius: 2px;
+        border-end-start-radius: 2px;
+        border-color: blue;
+        background-color: blue;
+    }
+    
+    nav a{
+        background-image: url("https://img.freepik.com/vetores-gratis/fundo-rosa-choque-gradiente_23-2150837376.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 5px;
+        position: relative;
+        top: 29px; 
+        border-radius: 100px;
+        text-decoration: none;
+        color: rgba(255, 215, 215, 0.785);
+        border: outset;
+        border-color: rgb(192, 0, 195);
+        font-weight: 900;
+    }
+    
+    nav a:hover{
+        filter: brightness(1.7);
+    }
+    
+    section{
+        position: relative;
+        background-color: rgb(0, 217, 255);
+        border: outset;
+        width: 300px; 
+        border-radius: 40px;
+        left: -30px;
+        height: max-content;
+        margin: 40px;
+        display: flex;
+        align-items: center;
+        
+    
+    }
+    
+    #about .container{
+        position: relative;
+        height: 500px;
+    }
+
+    #about img{
+        position: relative;
+        left: -200px;
+        height: 80px;
+        top: -240px;
+    }
+
+    #about{
+        position: relative;
+        top: -5px;
+        left: -38px;
+
+    }
+
+    section h2{
+        position: relative;
+        top: -10px;
+        right: 20px;
+        text-align: center;
+        margin: 40px;
+        font-size: 20px;
+        border: inset;
+        color: white;
+        border-radius: 400px;
+        border-color: rgb(255, 169, 249);
+        background-repeat: no-repeat;
+        width: 100px;
+        background-size: cover;
+        background-image: url("https://img.freepik.com/vetores-gratis/fundo-rosa-choque-gradiente_23-2150888496.jpg");
+    }
+    
+    
+    #songs{
+        position: relative;
+        left: -38px;
+        top: 20px;
+        
+    
+    }
+    
+    #songs .container{
+        position: relative;
+    }
+
+
+    #songs p{
+        position: relative;
+        width: 250px;
+        top: -70px;
+        left: -50px;
+    }
+
+    #songs img{
+        position: relative;
+        height: 80px;
+        top: -430px;
+        left: 240px;
+    }
+
+    .song #som{
+        width: 240px;
+        position: relative;
+        left: -400px;
+        top: 425px;
+
+    }
+
+
+    .som2 #som{
+        width: 240px;
+        position: relative;
+        left: -680px;
+        top: 1005px;
+
+    }
+    
+    
+    #songs{
+        align-items: start;
+        display: flex;
+        height: 1650px;
+    }
+    
+    
+    p{
+        position: relative;
+        left: -50px;
+        font-size: 15px;
+        font-weight: bold;
+        width: 2px;
+        
+        top: -20px;
+        
+        
+    }
+    #about p{
+        width: 250px;
+    }
+    
+    
+    .imgchar img{
+        position: relative;
+        height: 200px;
+        left: 10px;
+        top: -100px;
+        margin-bottom: -80px;
+        
+    
+    }
+    
+    #characters p{
+        position: relative;
+        top: -70px;
+        left: -50px;
+        font-size: 15px;
+    }
+
+    #characters{
+        position: relative;
+        width: 300px;
+        left: -38px;
+    }
+
+    #videos{
+        position: relative;
+        width: 300px;
+        height: 1300px;
+        left: -38px;
+        padding-bottom: -200px;
+    }
+
+    #videos h2{
+        top: -280px;
+    }
+
+    #videos p{
+        top: -330px;
+        width: 250px;
+        font-size: 15px;
+    }
+
+
+    #vd{
+        top: -200px;
+        position: relative;
+        right: 40px;
+        padding-bottom: 40px;
+        width: 150px;
+        height: 120px;
+        
+    }
+    
+    #videos #pvid2{
+        top: -240px;
+        left: -100px;
+    }
+
+
+
+    
+    ul li{
+        position: relative;
+        top: -200px;
+        left: 38px;
+        font-size: 20px;
+    
+    }
+    
+    #credits p{
+        width: 200px;
+        top: 0px;
+    }
+
+    #credits h2{
+        top: 50px;
+    }
+    
+    #credits{
+        display: flex;
+    }
+    
+    #credits img{
+        position: relative;
+        left: 30px;
+        height: 200px;
+        top: -80px;
+    }
+    
+    #pvid{
+        position: relative;
+        top: -50px;
+        margin-bottom: -150px ;
+    }
+    
+    #pvid2{
+        margin-top: -20px;
+    }
+    
+    
+    
+    .clips{
+        position: relative;
+        left: 40px;
+    }
+    
+        
+}
+
+
+
+@media only screen and (min-width:501px) and (max-width:600px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-weight: normal;
+    }
+    
+    body{
+        background-image: url("./images/689.jpg");
+        background-repeat: repeat-y;
+        background-size: 3800px;
+    
+    }
+    
+    header{
+        position: relative;
+        text-align: center;
+        background-image: url("./images/3337.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 300px;
+        left: 100px;    
+    }
+    .logo{
+        margin-top: 0px;
+        margin-bottom: 00px;
+    }
+    
+
+    #characters p {
+        width: 250px;
+    }
+    
+    .logo img{
+        height: 100px;
+    }
+    
+    .characters{
+        position: relative;
+        top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        top: 20px;
+        padding-bottom: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .characters img{
+        margin: -20px;
+        height: 70px;
+    
+    }
+    
+    #about p{
+        margin-top: -50px;
+        width: 300px;
+        
+    
+    }
+
+    
+    #len:hover{
+        content: url("https://media.tenor.com/5zHZUERctVIAAAAi/kagamine-len.gif");
+        cursor: pointer;
+        
+    }
+    
+    #kaito:hover{
+        content: url("https://static.myfigurecollection.net/upload/pictures/2023/06/05/3615317.gif");
+        cursor: pointer;
+    }
+    
+    #miku:hover{
+        content: url("https://static.wikia.nocookie.net/ecf5b0a0-1baf-4289-af94-e246770f2abf");
+    }
+    
+    #rin:hover{
+        content: url("https://cdn.pixilart.com/photos/orginal/1524e3ba6a460ae.gif");
+        cursor: pointer;
+    }
+    
+    #meiko:hover{
+        content: url("https://64.media.tumblr.com/811ec2d6206ece16c82bfc026248eb97/0c03b4b88a77a9da-ce/s250x400/c4ae215cd162ca249f1c7ee4334fe80f9b9fd552.gifv");
+        cursor: pointer;
+    }
+    
+    nav{
+        font-size: 20px;
+        border: inset;
+        border-width:5px;
+        height: 80px;
+        border-end-end-radius: 2px;
+        border-end-start-radius: 2px;
+        border-color: blue;
+        background-color: blue;
+    }
+    
+    nav a{
+        background-image: url("https://img.freepik.com/vetores-gratis/fundo-rosa-choque-gradiente_23-2150837376.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 5px;
+        position: relative;
+        top: 29px; 
+        border-radius: 100px;
+        text-decoration: none;
+        color: rgba(255, 215, 215, 0.785);
+        border: outset;
+        border-color: rgb(192, 0, 195);
+        font-weight: 900;
+    }
+    
+    nav a:hover{
+        filter: brightness(1.7);
+    }
+    
+    section{
+        position: relative;
+        background-color: rgb(0, 217, 255);
+        border: outset;
+        width: 300px; 
+        border-radius: 40px;
+        left: 60px;
+        height: max-content;
+        margin: 40px;
+        display: flex;
+        align-items: center;
+        
+    
+    }
+    
+    #about .container{
+        position: relative;
+        height: 500px;
+        
+    }
+
+    #about img{
+        position: relative;
+        left: -200px;
+        height: 80px;
+        top: -240px;
+    }
+
+    #about{
+        position: relative;
+        top: -5px;
+        left: 60px;
+
+    }
+
+    section h2{
+        position: relative;
+        top: -10px;
+        right: 20px;
+        text-align: center;
+        margin: 40px;
+        font-size: 20px;
+        border: inset;
+        color: white;
+        border-radius: 400px;
+        border-color: rgb(255, 169, 249);
+        background-repeat: no-repeat;
+        width: 100px;
+        background-size: cover;
+        background-image: url("https://img.freepik.com/vetores-gratis/fundo-rosa-choque-gradiente_23-2150888496.jpg");
+    }
+    
+    
+    #songs{
+        position: relative;
+        left: 60px;
+        top: 20px;
+        
+    
+    }
+    
+    #songs .container{
+        position: relative;
+    }
+
+
+    #songs p{
+        position: relative;
+        width: 250px;
+        top: -70px;
+        left: -50px;
+    }
+
+    #songs img{
+        position: relative;
+        height: 80px;
+        top: -430px;
+        left: 240px;
+    }
+
+    .song #som{
+        width: 240px;
+        position: relative;
+        left: -400px;
+        top: 425px;
+
+    }
+
+
+    .som2 #som{
+        width: 240px;
+        position: relative;
+        left: -680px;
+        top: 1005px;
+
+    }
+    
+    
+    #songs{
+        align-items: start;
+        display: flex;
+        height: 1650px;
+    }
+    
+    
+    p{
+        position: relative;
+        left: -50px;
+        font-size: 15px;
+        font-weight: bold;
+        width: 2px;
+        
+        top: -20px;
+        
+        
+    }
+    #about p{
+        width: 250px;
+    }
+    
+    
+    .imgchar img{
+        position: relative;
+        height: 200px;
+        left: 10px;
+        top: -100px;
+        margin-bottom: -80px;
+        
+    
+    }
+    
+    #characters p{
+        position: relative;
+        top: -70px;
+        left: -50px;
+        font-size: 15px;
+    }
+
+    #characters{
+        position: relative;
+        width: 300px;
+        left: 60px;
+    }
+
+    #videos{
+        position: relative;
+        width: 300px;
+        height: 1300px;
+        left: 60px;
+        padding-bottom: -200px;
+    }
+
+    #videos h2{
+        top: -280px;
+    }
+
+    #videos p{
+        top: -330px;
+        width: 250px;
+        font-size: 15px;
+    }
+
+
+    #vd{
+        top: -200px;
+        position: relative;
+        right: 40px;
+        padding-bottom: 40px;
+        width: 150px;
+        height: 120px;
+        
+    }
+    
+    #videos #pvid2{
+        top: -240px;
+        left: -100px;
+    }
+
+
+
+    
+    ul li{
+        position: relative;
+        top: -200px;
+        left: 38px;
+        font-size: 20px;
+    
+    }
+    
+    #credits p{
+        width: 200px;
+        top: 0px;
+    }
+
+    #credits h2{
+        top: 50px;
+    }
+    
+    #credits{
+        display: flex;
+    }
+    
+    #credits img{
+        position: relative;
+        left: 30px;
+        height: 200px;
+        top: -80px;
+    }
+    
+    #pvid{
+        position: relative;
+        top: -50px;
+        margin-bottom: -150px ;
+    }
+    
+    #pvid2{
+        margin-top: -20px;
+    }
+    
+    
+    
+    .clips{
+        position: relative;
+        left: 40px;
+    }
+    
+        
+}
+
+
+@media only screen and (min-width:600px) and (max-width:750px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-weight: normal;
+    }
+    
+    body{
+        background-image: url("./images/689.jpg");
+        background-repeat: repeat-y;
+        background-size: 3800px;
+    
+    }
+    
+    header{
+        position: relative;
+        text-align: center;
+        background-image: url("./images/3337.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 300px;
+        left: 200px;    
+    }
+    .logo{
+        margin-top: 0px;
+        margin-bottom: 00px;
+    }
+    
+
+    #characters p {
+        width: 250px;
+    }
+    
+    .logo img{
+        height: 100px;
+    }
+    
+    .characters{
+        position: relative;
+        top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        top: 20px;
+        padding-bottom: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .characters img{
+        margin: -20px;
+        height: 70px;
+    
+    }
+    
+    #about p{
+        margin-top: -50px;
+        width: 300px;
+        
+    
+    }
+
+    
+    #len:hover{
+        content: url("https://media.tenor.com/5zHZUERctVIAAAAi/kagamine-len.gif");
+        cursor: pointer;
+        
+    }
+    
+    #kaito:hover{
+        content: url("https://static.myfigurecollection.net/upload/pictures/2023/06/05/3615317.gif");
+        cursor: pointer;
+    }
+    
+    #miku:hover{
+        content: url("https://static.wikia.nocookie.net/ecf5b0a0-1baf-4289-af94-e246770f2abf");
+    }
+    
+    #rin:hover{
+        content: url("https://cdn.pixilart.com/photos/orginal/1524e3ba6a460ae.gif");
+        cursor: pointer;
+    }
+    
+    #meiko:hover{
+        content: url("https://64.media.tumblr.com/811ec2d6206ece16c82bfc026248eb97/0c03b4b88a77a9da-ce/s250x400/c4ae215cd162ca249f1c7ee4334fe80f9b9fd552.gifv");
+        cursor: pointer;
+    }
+    
+    nav{
+        font-size: 20px;
+        border: inset;
+        border-width:5px;
+        height: 80px;
+        border-end-end-radius: 2px;
+        border-end-start-radius: 2px;
+        border-color: blue;
+        background-color: blue;
+    }
+    
+    nav a{
+        background-image: url("https://img.freepik.com/vetores-gratis/fundo-rosa-choque-gradiente_23-2150837376.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 5px;
+        position: relative;
+        top: 29px; 
+        border-radius: 100px;
+        text-decoration: none;
+        color: rgba(255, 215, 215, 0.785);
+        border: outset;
+        border-color: rgb(192, 0, 195);
+        font-weight: 900;
+    }
+    
+    nav a:hover{
+        filter: brightness(1.7);
+    }
+    
+    section{
+        position: relative;
+        background-color: rgb(0, 217, 255);
+        border: outset;
+        width: 300px; 
+        border-radius: 40px;
+        left: 160px;
+        height: max-content;
+        margin: 40px;
+        display: flex;
+        align-items: center;
+        
+    
+    }
+    
+    #about .container{
+        position: relative;
+        height: 500px;
+        
+    }
+
+    #about img{
+        position: relative;
+        left: -200px;
+        height: 80px;
+        top: -240px;
+    }
+
+    #about{
+        position: relative;
+        top: -5px;
+        left: 160px;
+
+    }
+
+    section h2{
+        position: relative;
+        top: -10px;
+        right: 20px;
+        text-align: center;
+        margin: 40px;
+        font-size: 20px;
+        border: inset;
+        color: white;
+        border-radius: 400px;
+        border-color: rgb(255, 169, 249);
+        background-repeat: no-repeat;
+        width: 100px;
+        background-size: cover;
+        background-image: url("https://img.freepik.com/vetores-gratis/fundo-rosa-choque-gradiente_23-2150888496.jpg");
+    }
+    
+    
+    #songs{
+        position: relative;
+        left: 160px;
+        top: 20px;
+        
+    
+    }
+    
+    #songs .container{
+        position: relative;
+    }
+
+
+    #songs p{
+        position: relative;
+        width: 250px;
+        top: -70px;
+        left: -50px;
+    }
+
+    #songs img{
+        position: relative;
+        height: 80px;
+        top: -430px;
+        left: 240px;
+    }
+
+    .song #som{
+        width: 240px;
+        position: relative;
+        left: -400px;
+        top: 425px;
+
+    }
+
+
+    .som2 #som{
+        width: 240px;
+        position: relative;
+        left: -680px;
+        top: 1005px;
+
+    }
+    
+    
+    #songs{
+        align-items: start;
+        display: flex;
+        height: 1650px;
+    }
+    
+    
+    p{
+        position: relative;
+        left: -50px;
+        font-size: 15px;
+        font-weight: bold;
+        width: 2px;
+        
+        top: -20px;
+        
+        
+    }
+    #about p{
+        width: 250px;
+    }
+    
+    
+    .imgchar img{
+        position: relative;
+        height: 200px;
+        left: 10px;
+        top: -100px;
+        margin-bottom: -80px;
+        
+    
+    }
+    
+    #characters p{
+        position: relative;
+        top: -70px;
+        left: -50px;
+        font-size: 15px;
+    }
+
+    #characters{
+        position: relative;
+        width: 300px;
+        left: 160px;
+    }
+
+    #videos{
+        position: relative;
+        width: 300px;
+        height: 1300px;
+        left: 160px;
+        padding-bottom: -200px;
+    }
+
+    #videos h2{
+        top: -280px;
+    }
+
+    #videos p{
+        top: -330px;
+        width: 250px;
+        font-size: 15px;
+    }
+
+
+    #vd{
+        top: -200px;
+        position: relative;
+        right: 40px;
+        padding-bottom: 40px;
+        width: 150px;
+        height: 120px;
+        
+    }
+    
+    #videos #pvid2{
+        top: -240px;
+        left: -100px;
+    }
+
+
+
+    
+    ul li{
+        position: relative;
+        top: -200px;
+        left: 38px;
+        font-size: 20px;
+    
+    }
+    
+    #credits p{
+        width: 200px;
+        top: 0px;
+    }
+
+    #credits h2{
+        top: 50px;
+    }
+    
+    #credits{
+        display: flex;
+    }
+    
+    #credits img{
+        position: relative;
+        left: 30px;
+        height: 200px;
+        top: -80px;
+    }
+    
+    #pvid{
+        position: relative;
+        top: -50px;
+        margin-bottom: -150px ;
+    }
+    
+    #pvid2{
+        margin-top: -20px;
+    }
+    
+    
+    
+    .clips{
+        position: relative;
+        left: 40px;
+    }
+    
+        
+}
+
+@media only screen and (min-width:751px) and (max-width:1049px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-weight: normal;
+    }
+    
+    body{
+        background-image: url("./images/689.jpg");
+        background-repeat: repeat-y;
+        background-size: 3800px;
+    
+    }
+    
+    header{
+        position: relative;
+        text-align: center;
+        background-image: url("./images/3337.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 300px;
+        left: 300px;    
+    }
+    .logo{
+        margin-top: 0px;
+        margin-bottom: 00px;
+    }
+    
+
+    #characters p {
+        width: 250px;
+    }
+    
+    .logo img{
+        height: 100px;
+    }
+    
+    .characters{
+        position: relative;
+        top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        top: 20px;
+        padding-bottom: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .characters img{
+        margin: -20px;
+        height: 70px;
+    
+    }
+    
+    #about p{
+        margin-top: -50px;
+        width: 300px;
+        
+    
+    }
+
+    
+    #len:hover{
+        content: url("https://media.tenor.com/5zHZUERctVIAAAAi/kagamine-len.gif");
+        cursor: pointer;
+        
+    }
+    
+    #kaito:hover{
+        content: url("https://static.myfigurecollection.net/upload/pictures/2023/06/05/3615317.gif");
+        cursor: pointer;
+    }
+    
+    #miku:hover{
+        content: url("https://static.wikia.nocookie.net/ecf5b0a0-1baf-4289-af94-e246770f2abf");
+    }
+    
+    #rin:hover{
+        content: url("https://cdn.pixilart.com/photos/orginal/1524e3ba6a460ae.gif");
+        cursor: pointer;
+    }
+    
+    #meiko:hover{
+        content: url("https://64.media.tumblr.com/811ec2d6206ece16c82bfc026248eb97/0c03b4b88a77a9da-ce/s250x400/c4ae215cd162ca249f1c7ee4334fe80f9b9fd552.gifv");
+        cursor: pointer;
+    }
+    
+    nav{
+        font-size: 20px;
+        border: inset;
+        border-width:5px;
+        height: 80px;
+        border-end-end-radius: 2px;
+        border-end-start-radius: 2px;
+        border-color: blue;
+        background-color: blue;
+    }
+    
+    nav a{
+        background-image: url("https://img.freepik.com/vetores-gratis/fundo-rosa-choque-gradiente_23-2150837376.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 5px;
+        position: relative;
+        top: 29px; 
+        border-radius: 100px;
+        text-decoration: none;
+        color: rgba(255, 215, 215, 0.785);
+        border: outset;
+        border-color: rgb(192, 0, 195);
+        font-weight: 900;
+    }
+    
+    nav a:hover{
+        filter: brightness(1.7);
+    }
+    
+    section{
+        position: relative;
+        background-color: rgb(0, 217, 255);
+        border: outset;
+        width: 300px; 
+        border-radius: 40px;
+        left: 260px;
+        height: max-content;
+        margin: 40px;
+        display: flex;
+        align-items: center;
+        
+    
+    }
+    
+    #about .container{
+        position: relative;
+        height: 500px;
+        
+    }
+
+    #about img{
+        position: relative;
+        left: -200px;
+        height: 80px;
+        top: -240px;
+    }
+
+    #about{
+        position: relative;
+        top: -5px;
+        left: 260px;
+
+    }
+
+    section h2{
+        position: relative;
+        top: -10px;
+        right: 20px;
+        text-align: center;
+        margin: 40px;
+        font-size: 20px;
+        border: inset;
+        color: white;
+        border-radius: 400px;
+        border-color: rgb(255, 169, 249);
+        background-repeat: no-repeat;
+        width: 100px;
+        background-size: cover;
+        background-image: url("https://img.freepik.com/vetores-gratis/fundo-rosa-choque-gradiente_23-2150888496.jpg");
+    }
+    
+    
+    #songs{
+        position: relative;
+        left: 260px;
+        top: 20px;
+        align-items: start;
+        display: flex;
+        height: 1650px;
+        
+    
+    }
+    
+    #songs .container{
+        position: relative;
+    }
+
+
+    #songs p{
+        position: relative;
+        width: 250px;
+        top: -70px;
+        left: -50px;
+    }
+
+    #songs img{
+        position: relative;
+        height: 80px;
+        top: -430px;
+        left: 240px;
+    }
+
+    .song #som{
+        width: 240px;
+        position: relative;
+        left: -400px;
+        top: 425px;
+
+    }
+
+
+    .som2 #som{
+        width: 240px;
+        position: relative;
+        left: -680px;
+        top: 1005px;
+
+    }
+    
+    
+
+    
+    
+    p{
+        position: relative;
+        left: -50px;
+        font-size: 15px;
+        font-weight: bold;
+        width: 2px;
+        
+        top: -20px;
+        
+        
+    }
+    #about p{
+        width: 250px;
+    }
+    
+    
+    .imgchar img{
+        position: relative;
+        height: 200px;
+        left: 10px;
+        top: -100px;
+        margin-bottom: -80px;
+        
+    
+    }
+    
+    #characters p{
+        position: relative;
+        top: -70px;
+        left: -50px;
+        font-size: 15px;
+    }
+
+    #characters{
+        position: relative;
+        width: 300px;
+        left: 260px;
+    }
+
+    #videos{
+        position: relative;
+        width: 300px;
+        height: 1300px;
+        left: 260px;
+        padding-bottom: -200px;
+    }
+
+    #videos h2{
+        top: -280px;
+    }
+
+    #videos p{
+        top: -330px;
+        width: 250px;
+        font-size: 15px;
+    }
+
+
+    #vd{
+        top: -200px;
+        position: relative;
+        right: 40px;
+        padding-bottom: 40px;
+        width: 150px;
+        height: 120px;
+        
+    }
+    
+    #videos #pvid2{
+        top: -240px;
+        left: -100px;
+    }
+
+
+
+    
+    ul li{
+        position: relative;
+        top: -200px;
+        left: 38px;
+        font-size: 20px;
+    
+    }
+    
+    #credits p{
+        width: 200px;
+        top: 0px;
+    }
+
+    #credits h2{
+        top: 50px;
+    }
+    
+    #credits{
+        display: flex;
+    }
+    
+    #credits img{
+        position: relative;
+        left: 30px;
+        height: 200px;
+        top: -80px;
+    }
+    
+    #pvid{
+        position: relative;
+        top: -50px;
+        margin-bottom: -150px ;
+    }
+    
+    #pvid2{
+        margin-top: -20px;
+    }
+    
+    
+    
+    .clips{
+        position: relative;
+        left: 40px;
+    }
+    
+        
+}
+
+
+@media only screen and (min-width:1050px) and (max-width:1559px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-weight: normal;
+    }
+    
+    body{
+        background-image: url("./images/689.jpg");
+        background-repeat: repeat-y;
+        background-size: 3800px;
+    
+    }
+    
+    header{
+        position: relative;
+        text-align: center;
+        background-image: url("./images/3337.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 700px;
+        left: 300px;    
+    }
+    .logo{
+        margin-top: 0px;
+        margin-bottom: 00px;
+    }
+    
+
+    #characters p {
+        width: 250px;
+    }
+    
+    .logo img{
+        height: 200px;
+    }
+    
+    .characters{
+        position: relative;
+        top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        top: 20px;
+        padding-bottom: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .characters img{
+        margin: -20px;
+        height: 150px;
+    
+    }
+    
+    #about p{
+        margin-top: -50px;
+        width: 300px;
+        
+    
+    }
+
+    
+    #len:hover{
+        content: url("https://media.tenor.com/5zHZUERctVIAAAAi/kagamine-len.gif");
+        cursor: pointer;
+        
+    }
+    
+    #kaito:hover{
+        content: url("https://static.myfigurecollection.net/upload/pictures/2023/06/05/3615317.gif");
+        cursor: pointer;
+    }
+    
+    #miku:hover{
+        content: url("https://static.wikia.nocookie.net/ecf5b0a0-1baf-4289-af94-e246770f2abf");
+    }
+    
+    #rin:hover{
+        content: url("https://cdn.pixilart.com/photos/orginal/1524e3ba6a460ae.gif");
+        cursor: pointer;
+    }
+    
+    #meiko:hover{
+        content: url("https://64.media.tumblr.com/811ec2d6206ece16c82bfc026248eb97/0c03b4b88a77a9da-ce/s250x400/c4ae215cd162ca249f1c7ee4334fe80f9b9fd552.gifv");
+        cursor: pointer;
+    }
+    
+    nav{
+        font-size: 20px;
+        border: inset;
+        border-width:5px;
+        height: 80px;
+        border-end-end-radius: 2px;
+        border-end-start-radius: 2px;
+        border-color: blue;
+        background-color: blue;
+    }
+    
+    nav a{
+        background-image: url("https://img.freepik.com/vetores-gratis/fundo-rosa-choque-gradiente_23-2150837376.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 5px;
+        position: relative;
+        top: 29px; 
+        border-radius: 100px;
+        text-decoration: none;
+        color: rgba(255, 215, 215, 0.785);
+        border: outset;
+        border-color: rgb(192, 0, 195);
+        font-weight: 900;
+        font-size: 25px;
+    }
+    
+    nav a:hover{
+        filter: brightness(1.7);
+    }
+    
+    section{
+        position: relative;
+        background-color: rgb(0, 217, 255);
+        border: outset;
+        width: 700px; 
+        border-radius: 40px;
+        left: 260px;
+        height: max-content;
+        margin: 40px;
+        display: flex;
+        align-items: center;
+        
+    
+    }
+    
+    #about .container{
+        position: relative;
+        height: 300px;
+        
+    }
+
+    #about img{
+        position: relative;
+        left: -150px;
+        height: 180px;
+        top: -100px;
+    }
+
+    #about{
+        position: relative;
+        top: -5px;
+        left: 260px;
+        width: 700px;
+
+    }
+
+    section h2{
+        position: relative;
+        top: -10px;
+        right: 20px;
+        text-align: center;
+        margin: 40px;
+        font-size: 25px;
+        border: inset;
+        color: white;
+        border-radius: 400px;
+        border-color: rgb(255, 169, 249);
+        background-repeat: no-repeat;
+        width: 100px;
+        background-size: cover;
+        background-image: url("https://img.freepik.com/vetores-gratis/fundo-rosa-choque-gradiente_23-2150888496.jpg");
+    }
+    
+    
+    #songs{
+        position: relative;
+        left: 260px;
+        top: 20px;
+        align-items: start;
+        display: flex;
+        width: 700px;
+        height: 900px;
+        
+    
+    }
+    
+    #songs .container{
+        position: relative;
+    }
+
+
+    #songs p{
+        position: relative;
+        width: 550px;
+        top: -70px;
+        left: -50px;
+    }
+
+    #songs img{
+        position: relative;
+        height: 150px;
+        top: -430px;
+        left: 290px;
+    }
+
+    .song #som{
+        width: 240px;
+        position: relative;
+        left: -700px;
+        top: 250px;
+
+    }
+
+
+    .som2 #som{
+        width: 240px;
+        position: relative;
+        left: -600px;
+        top: 250px;
+
+    }
+    
+    
+
+    
+    
+    p{
+        position: relative;
+        left: -50px;
+        font-size: 15px;
+        font-weight: bold;
+        width: 550px;
+        top: -20px;
+        
+        
+    }
+    #about p{
+        width: 550px;
+    }
+    
+    
+    .imgchar img{
+        position: relative;
+        height: 400px;
+        left: 60px;
+        top: -100px;
+        margin-bottom: -80px;
+        
+        
+    
+    }
+    
+    #characters h2{
+        font-size: 20px;
+        
+    }
+
+    #characters p{
+        position: relative;
+        top: -70px;
+        text-align: center;
+        font-size: 15px;
+        width: 550px;
+    }
+
+    #characters{
+        position: relative;
+        width: 700px;
+        left: 260px;
+    }
+
+    #videos{
+        position: relative;
+        width: 700px;
+        height: 1300px;
+        left: 260px;
+        padding-bottom: -200px;
+    }
+
+    #videos h2{
+        top: -160px;
+    }
+
+    #videos p{
+        top: -220px;
+        width: 550px;
+        font-size: 15px;
+    }
+
+
+    #vd{
+        top: -150px;
+        position: relative;
+        right: 40px;
+        padding-bottom: 40px;
+        width: 350px;
+        height: 220px;
+        
+    }
+    
+    #videos #pvid2{
+        top: -170px;
+        left: -100px;
+    }
+
+
+
+    
+    ul li{
+        position: relative;
+        top: -30px;
+        left: 38px;
+        font-size: 20px;
+    
+    }
+    
+    #credits p{
+        top: 140px;
+        width: 550px;
+    }
+    
+    #credits{
+        height: 500px;
+        display: flex;
+        
+    }
+    
+    #credits img{
+        position: relative;
+        left: 330px;
+        top: -280px;
+    }
+    
+
+    #credits h2{
+        top: 140px;
+    }
+
+
+    #pvid{
+        position: relative;
+        top: -50px;
+        margin-bottom: -150px ;
+    }
+    
+    #pvid2{
+        margin-top: -20px;
+    }
+    
+    
+    
+    .clips{
+        position: relative;
+        left: 40px;
+    }
+    
+        
 }
