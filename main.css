@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+body{
+    background-image: url("./images/689.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    text-align: center;
+    background-image: url("./images/3337.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.logo{
+    margin-top: 0px;
+    margin-bottom: 00px;
+}
+
+#characters p {
+    width: 800px;
+}
+
+.logo img{
+    height: 350px;
+}
+
+.characters{
+    position: relative;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.characters img{
+
+    height: 300px;
+
+}
+
+#about p{
+    margin-top: -50px;
+    width: 800px;
+    
+
+}
+
+
+
+
+#len:hover{
+    content: url("https://media.tenor.com/5zHZUERctVIAAAAi/kagamine-len.gif");
+    cursor: pointer;
+    
+}
+
+#kaito:hover{
+    content: url("https://static.myfigurecollection.net/upload/pictures/2023/06/05/3615317.gif");
+    cursor: pointer;
+}
+
+#miku:hover{
+    content: url("https://static.wikia.nocookie.net/ecf5b0a0-1baf-4289-af94-e246770f2abf");
+}
+
+#rin:hover{
+    content: url("https://cdn.pixilart.com/photos/orginal/1524e3ba6a460ae.gif");
+    cursor: pointer;
+}
+
+#meiko:hover{
+    content: url("https://64.media.tumblr.com/811ec2d6206ece16c82bfc026248eb97/0c03b4b88a77a9da-ce/s250x400/c4ae215cd162ca249f1c7ee4334fe80f9b9fd552.gifv");
+    cursor: pointer;
+}
+
+nav{
+    font-size: 40px;
+    border: inset;
+    border-width: 40px;
+    border-radius: 100px;
+    border-color: blue;
+    background-color: blue;
+}
+
+nav a{
+    background-image: url("https://img.freepik.com/vetores-gratis/fundo-rosa-choque-gradiente_23-2150837376.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 100px;
+    text-decoration: none;
+    color: rgba(255, 215, 215, 0.785);
+    border: outset;
+    border-color: rgb(192, 0, 195);
+    font-weight: 900;
+}
+
+nav a:hover{
+    filter: brightness(1.7);
+}
+
+
+
+
+
+section{
+    position: relative;
+    background-color: rgb(0, 217, 255);
+    border: outset;
+    width: 1400px; 
+    border-radius: 40px;
+    height:  contain;
+    margin: 40px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+section h2{
+    top: 0px;
+    text-align: center;
+    margin: 40px;
+    font-size: 40px;
+    border: inset;
+    color: white;
+    border-radius: 400px;
+    border-color: rgb(255, 169, 249);
+    background-repeat: no-repeat;
+    width: 400px;
+    background-size: cover;
+    background-image: url("https://img.freepik.com/vetores-gratis/fundo-rosa-choque-gradiente_23-2150888496.jpg");
+}
+
+
+section h3{
+    width: 900px;
+    padding: 5px 40px;
+    color: rgb(129, 0, 97);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#som{
+
+
+
+    margin: 20px;
+    width: 302px;
+}
+
+#songs{
+    align-items: start;
+    display: flex;
+    height: 1000px;
+}
+
+
+#songs iframe{
+    position: relative;
+    top: 350px;
+    left: -1300px;
+}
+.som2{
+    height: 20px;
+}
+
+.somimg{
+    position: relative;
+    top: 400px;
+    left: -1000px;
+}
+
+
+p{
+
+    font-size: 20px;
+    font-weight: bold;
+    width: 1200px;
+    height: 140px;
+    margin: 40px;
+    padding: 40px;
+}
+
+
+.imgchar{
+    display: flex;
+}
+
+.imgchar img{
+    position: relative;
+    height: 500px;
+    left: 100px;
+    top: -100px;
+    margin-bottom: -80px;
+    
+
+}
+
+
+
+ul li{
+    position: relative;
+    top: -140px;
+    left: 80px;
+    font-size: 20px;
+
+}
+
+
+#credits{
+    display: flex;
+}
+
+#credits img{
+    position: relative;
+    left: 1000px;
+    top: -390px;
+}
+
