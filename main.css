@@ -297,8 +297,8 @@ footer{
     
     #bt{
         position: relative;
-        left: -275px;
-        top: -2px;
+        left: -265px;
+        top: 2px;
         margin: 565px;
 
 
@@ -307,6 +307,7 @@ footer{
 
     #ct{
         top: 22px;
+        left: -20px;
     }
 
     #bu{
@@ -516,7 +517,7 @@ footer{
         width: 240px;
         position: relative;
         left: -400px;
-        top: 425px;
+        top: 500px;
 
     }
 
@@ -525,7 +526,7 @@ footer{
         width: 240px;
         position: relative;
         left: -680px;
-        top: 1005px;
+        top: 1085px;
 
     }
     
@@ -533,7 +534,7 @@ footer{
     #songs{
         align-items: start;
         display: flex;
-        height: 1650px;
+        height: 1850px;
     }
     
     
