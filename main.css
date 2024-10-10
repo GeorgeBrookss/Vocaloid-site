@@ -307,7 +307,7 @@ footer{
 
     #ct{
         top: 22px;
-        left: -20px;
+        left: -14px;
     }
 
     #bu{
@@ -401,8 +401,9 @@ footer{
     nav{
         font-size: 20px;
         border: inset;
-        border-width:5px;
+        border-width: 5px;
         height: 80px;
+        width: 100%;
         border-end-end-radius: 2px;
         border-end-start-radius: 2px;       
         border-color: blue;
