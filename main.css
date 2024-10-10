@@ -367,11 +367,12 @@ footer{
         top: -20px;
     }
 
-    body{
+    html body{
         background-image: url("./images/689.jpg");
         background-repeat: repeat-y;
         background-size: 3800px;
-    
+        overflow-x: hidden;
+        
     }
     
     header{
