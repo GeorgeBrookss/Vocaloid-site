@@ -84,6 +84,12 @@ header{
     cursor: pointer;
 }
 
+
+h2{
+    font-family: "Orbitron", sans-serif;
+
+}
+
 nav{
     font-size: 40px;
     border: inset;
@@ -98,9 +104,10 @@ nav a{
     background-size: cover;
     background-repeat: no-repeat;
     padding: 20px;
+    font-family: "Orbitron", sans-serif;
     border-radius: 100px;
     text-decoration: none;
-    color: rgba(255, 215, 215, 0.785);
+    color: rgba(255, 255, 255, 0.731);
     border: outset;
     border-color: rgb(192, 0, 195);
     font-weight: 900;
@@ -108,6 +115,8 @@ nav a{
 
 nav a:hover{
     filter: brightness(1.7);
+    color: rgb(255, 255, 255);
+
 }
 
 
@@ -127,6 +136,45 @@ section{
 
 }
 
+
+#about{
+    height: 500px;
+}
+
+
+#about h2{
+    position: relative;
+    top: -70px;
+}
+
+#about p{
+    position: relative;
+    top: -80px;
+}
+
+#videos{
+    height: 1500px;
+}
+
+#videos h2{
+    position: relative;
+    top: -101px;
+}
+
+#videos p{
+    position: relative;
+    top: -120px;
+}
+
+#videos .clips{
+    position: relative;
+    top: -70px;
+}
+
+#videos #pvid2{
+    position: relative;
+    top: 20px;
+}
 
 section h2{
     top: 0px;
@@ -197,6 +245,7 @@ section h3{
 
 p{
 
+    font-family: "Teko", sans-serif;
     font-size: 20px;
     font-weight: bold;
     width: 1200px;
@@ -233,6 +282,7 @@ ul li{
     top: -40px;
     left: 80px;
     font-size: 20px;
+    font-family: "Teko", sans-serif;
 
 }
 
