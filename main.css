@@ -510,25 +510,25 @@ footer{
 
     #about  h2{
         position: relative;
-        top: -120px;
+        top: -20px;
         
     }
 
 
     #about{
-        height: 800px;
+        height: 600px;
     }
 
     #about img{
         position: relative;
         left: -200px;
         height: 80px;
-        top: -380px;
+        top: -280px;
     }
 
     #about p{
         position: relative;
-        top: -125px;
+        top: -15px;
     }
     
 
